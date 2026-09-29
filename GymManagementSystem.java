@@ -100,9 +100,10 @@ class Member extends Person implements Payable, Serializable {
     // Getters
     public int getMemberId() {
         return memberId;
-    }
+    }//hi this changes
 
     public String getName() {
+        System.out.println("Getting name: " + name);
         return name;
     }
 
